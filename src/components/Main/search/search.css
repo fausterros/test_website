@@ -1,0 +1,25 @@
+
+.search{
+    padding: 15px 20px 15px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 9px;
+    margin-bottom: 15px;
+    width: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.productList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 10px;
+    width: calc(100%-30px);
+    margin: 20px 10px 10px 6px;
+    padding: 0px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
