@@ -1,0 +1,99 @@
+
+.productImage{
+    background-color: #E5E7EB;
+    border: #E5E7EB;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 150px;
+    min-width: 110px;
+    min-height: 145px;
+    max-height: 145px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+}
+.productCard{
+    background-color: white;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 166px;
+    min-width: 135px;
+    max-height: 214px;
+    min-height: 200px;
+    padding: 5px 5px 5px;
+    margin: 5px;
+    border-radius: 16px;
+}
+.quanityControls{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #364C84;
+    border-radius: 22.58px;
+    width: 50%;
+    max-width: 71px;
+    min-width: 50px;
+    height: 29px;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.increase{
+    border-radius: 32.37px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color:#364C84;
+    height: 20px;
+    width: 20px;
+    padding: 0px;
+    margin-right: 5px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.decrease{
+    border-radius: 32.37px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color:#364C84;
+    height: 20px;
+    width: 20px;
+    padding: 0px;
+    margin-left: 5px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.addToCart{
+    border-radius: 32.37px;
+    border: none;
+    outline: none;
+    background-color: #364C84;
+    color: white;
+    height: 31px;
+    width: 31px;
+    padding: 0px;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    margin-top: -6px;
+    margin-bottom: -5px;
+    margin-right: 10px;
+}
+.quanityControls p{
+    color: white;
+}
+.productName{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: -14px;
+    margin-bottom: -10px;
+}
